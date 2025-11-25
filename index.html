@@ -1,13 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adaptive Quiz — Home</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div>
-        hi
-    </div>
+  <div class="container">
+    <aside class="left">
+      <div class="brand">
+        <div class="logo">AQ</div>
+        <div>
+          <h1>Adaptive Quiz</h1>
+          <p class="small">Smart assessments</p>
+        </div>
+      </div>
+      <nav class="card">
+        <a class="nav-item active" href="#">
+          <div class="nav-icon">1</div>
+          <div>
+            <div>Dashboard</div>
+            <div class="small">Overview</div>
+          </div>
+        </a>
+        <a class="nav-item" href="#">
+          <div class="nav-icon">2</div>
+          <div>
+            <div>Self Assessment</div>
+            <div class="small">Practice tests</div>
+          </div>
+        </a>
+        <a class="nav-item" href="#">
+          <div class="nav-icon">3</div>
+          <div>
+            <div>Result</div>
+            <div class="small">Your progress</div>
+          </div>
+        </a>
+        <a class="nav-item" href="#">
+          <div class="nav-icon">⚙</div>
+          <div>
+            <div>Settings</div>
+            <div class="small">Preferences</div>
+          </div>
+        </a>
+      </nav>
+    </aside>
+
+    <main class="right">
+      <section class="panel">
+        <div class="panel-left">
+          <h2>Welcome back</h2>
+          <p class="lead">Ready to take a quick adaptive test? The system will adjust difficulty based on your answers.</p>
+          <div class="meta">Estimated time: 10–15 mins</div>
+        </div>
+        <div class="panel-right">
+          <h3>Start Test</h3>
+          <button class="start-btn">Start</button>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
+
